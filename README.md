@@ -1,1 +1,5 @@
-# Malnutrition-Analysis
+This project explores malnutrition trends using UNICEF data, leveraging Azure Cosmos DB (SQL and Gremlin APIs) to track rising and falling malnutrition rates across various countries. The aim is to gain insights into nations most affected by obesity, stunting, and undernutrition. Python was used for data preparation, and Azure Blob Storage for storing datasets, while Azure Data Factory pipelines facilitated data loading into Azure SQL and CosmosDB. Structured data analysis was conducted using Cosmos DB’s SQL API, and the Gremlin API was used for graph-based visualizations of malnutrition trends.
+
+The project setup includes configuring Azure Cosmos DB and Blob Storage, running Azure Data Factory pipelines, and utilizing Python scripts for querying and analyzing the data. The analysis identified key malnutrition trends, such as the countries experiencing the highest levels of undernutrition and obesity. By integrating both SQL and Gremlin APIs, the project provided a comprehensive view of malnutrition trends through advanced visualizations and data insights.
+
+In conclusion, this analysis offers valuable insights into global malnutrition challenges, helping to identify the most affected regions. With these insights, governments, NGOs, and policymakers can better understand and address the most pressing nutrition issues worldwide.
